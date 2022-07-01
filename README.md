@@ -27,5 +27,10 @@ Soon.
 If you use this code or these models, please cite the following paper:
 
 ```
-@inproceedings{Demeter2021WhosOF, title={Who’s on First?: Probing the Learning and Representation Capabilities of Language Models on Deterministic Closed Domains}, author={David Demeter and Doug Downey}, booktitle={CONLL}, year={2021}}
+@inproceedings{Demeter2021WhosOF,
+  title={Who’s on First?: Probing the Learning and Representation Capabilities of Language Models on Deterministic Closed Domains},
+  author={David Demeter and Doug Downey},
+  booktitle={CONLL},
+  year={2021}
+}
 ```
