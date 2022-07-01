@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains the SPLAT datasets and code for the analyses presented in Who’s on First?: Probing the Learning and Representation Capabilities of Language Models on Deterministic Closed Domains.
+This repository contains the SPLAT datasets and code for the analyses presented in "Who’s on First?: Probing the Learning and Representation Capabilities of Language Models on Deterministic Closed Domains."
 
 ## Datasets
 
