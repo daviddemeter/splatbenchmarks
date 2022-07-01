@@ -10,9 +10,9 @@ SimPlified Language Activity Traces (SPLAT) datasets are provided for chess and 
 
 1. Pre-training files such as ```chess.train200K.txt``` which contain full game traces and are used to train a model with background knowledge of gameplay, and
 
-2. Fine-tuning files such as chess.finetune50K.txt where contain partial game traces up to time t at which point a probing question is posed (details on probing tasks are provided in the paper).
+2. Fine-tuning files such as ```chess.finetune50K.txt``` where contain partial game traces up to time t at which point a probing question is posed (details on probing tasks are provided in the paper).
 
-The numerical part of each filename indicates the number of games contained in the file.  The chess data set contain the additional file chess.legal.txt, which like the fine-tuning files contain partial game traces up to time t, followed by an enumeration of all legal moves for the current board configuration.
+The numerical part of each filename indicates the number of games contained in the file.  The chess data set contain the additional file ```chess.legal.txt```, which like the fine-tuning files contain partial game traces up to time t, followed by an enumeration of all legal moves for the current board configuration.
 
 ## Model and Checkpoints
 
