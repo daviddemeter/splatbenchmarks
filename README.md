@@ -24,7 +24,7 @@ Soon.
 
 ## Acknowledgements
 
-If you use this code or these models, please cite the following paper:
+If you use these datasets or models, please cite the following paper:
 
 ```
 @inproceedings{Demeter2021WhosOF,
