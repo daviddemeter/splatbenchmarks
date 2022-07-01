@@ -8,8 +8,9 @@ This repository contains the SPLAT datasets and code for the analyses presented 
 
 SimPlified Language Activity Traces (SPLAT) datasets are provided for chess and baseball domains, and are derived from game traces available at lichess.org and Major League Baseball Gameday files, respectively.  Each dataset contains two sets of files:
 
-•	Pre-training files such as chess.train400K.txt which contain full game traces and are used to train a model with background knowledge of gameplay, and
-•	Fine-tuning files such as chess.finetune50K.txt where contain partial game traces up to time t at which point a probing question is posed (details on probing tasks are provided in the paper).
+1. Pre-training files such as chess.train400K.txt which contain full game traces and are used to train a model with background knowledge of gameplay, and
+
+2. fine-tuning files such as chess.finetune50K.txt where contain partial game traces up to time t at which point a probing question is posed (details on probing tasks are provided in the paper).
 
 The numerical part of each filename indicates the number of games contained in the file.  The chess data set contain the additional file chess.legal.txt, which like the fine-tuning files contain partial game traces up to time t, followed by an enumeration of all legal moves for the current board configuration.
 
